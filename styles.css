@@ -1,0 +1,10 @@
+.btn-custom {
+    background-color: rgb(225 29 72);
+    color: #ffffff;
+    font-weight: 500;
+}
+.btn-custom:hover {
+    background-color: rgb(190 18 60);
+    color: #ffffff;
+    font-weight: 500;
+}
