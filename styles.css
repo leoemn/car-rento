@@ -1,5 +1,10 @@
+body {
+    background: none;
+    width: 97vw;
+}
 .btn-custom {
     background-color: rgb(225 29 72);
+    box-shadow: 2px 4px 8px rgb(225 29 72);
     color: #ffffff;
     font-weight: 500;
 }
@@ -7,4 +12,43 @@
     background-color: rgb(190 18 60);
     color: #ffffff;
     font-weight: 500;
+}
+.btn-custom1 {
+    background-color: #010103;
+    box-shadow: 2px 4px 8px #010103;
+    color: #ffffff;
+    font-weight: 500;
+}
+.btn-custom1:hover {
+    background-color: #ffffff;
+    color: #010103;
+    font-weight: 500;
+    border: 1px solid #010103;
+}
+.text-custom {
+    color: rgb(225 29 72);
+}
+.text-custom:hover {
+    color: rgb(190 18 60);
+}
+.h1-custom {
+    font-weight: 700;
+    font-size: 3.5rem;
+
+}
+.container-custom {
+    margin-top: 5rem;
+    padding-left: 3rem;
+    color: #010103;
+}
+b {
+    color: red;
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url('bg.png');
+        background-size: 60vw;
+        background-position: right top;
+        background-repeat: no-repeat;
+    }
 }
