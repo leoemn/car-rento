@@ -36,7 +36,7 @@
         <div class="content-row">
             <!-- Text Content on Right -->
             <div class="content-column text-content">
-                <h4 class="bold-text">Plan your trip now</h4>
+                <h1 class="bold-text">Plan your trip now</h1>
                 <h1 class="main-heading">Save <span class="highlight">big</span> with our car rental</h1>
                 <p class="emphasis-text">Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.</p>
                 <!-- Book and Learn Buttons -->
@@ -54,6 +54,49 @@
                 <img src="rent.png" alt="Overlay Image" class="responsive-img">
             </div>
         </div>
+    </div>
+    <!-- Booking Form -->
+    <div class="form-container">
+        <div class="form-heading">
+            <h1>Book a car</h1>
+        </div>
+        <div class="form-alert">
+            <strong>All fields are required.</strong>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times</span>
+        </div>
+        <form action="">
+            <div class="form-fields">
+                <div class="field">
+                    <label class="form-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon">
+                            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path>
+                            <path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5"></path>
+                        </svg>
+                        Select Your Car Type<b>*</b> &nbsp; 
+                    </label>
+                    <input type="text" class="form-input" placeholder="Select your car type" aria-label="Select your car type">
+                </div>
+                <div class="field">
+                    <label class="form-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon">
+                            <path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z"></path>
+                        </svg> 
+                        &nbsp; Pick-up <b>*</b> 
+                    </label>
+                    <input type="text" class="form-input" placeholder="Select pick-up location" aria-label="Select pick-up location">
+                </div>
+                <div class="field">
+                    <label class="form-label">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="input-icon">
+                            <path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z"></path>
+                        </svg> 
+                        &nbsp; Drop-of <b>*</b>
+                    </label>
+                    <input type="text" class="form-input" placeholder="Select drop-of location" aria-label="Select drop-of location">
+                </div>
+            </div>
+        </form>
     </div>
 
     <script src="script.js"></script>

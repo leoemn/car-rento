@@ -127,7 +127,7 @@ body {
 }
 
 .button-container {
-    margin-top: 1em;
+    margin-top: 2.5em;
 }
 
 .btn-book {
@@ -152,6 +152,57 @@ body {
     background-color: white;
     border: 1px solid black;
     color: black;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 95%;
+    margin: auto;
+    padding: 3% 4%;
+}
+
+.form-alert {
+    padding: 15px 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;   
+    display: none;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-fields
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: 700;
+    font-size: 1.15em;
+    padding-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
