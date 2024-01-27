@@ -182,6 +182,10 @@ body {
     transition: 0.3s;
 }
 
+.form-container {
+    margin-top: 4%;
+}
+
 .form-fields
 {
     display: flex;
@@ -193,6 +197,8 @@ body {
 .field {
     display: flex;
     flex-direction: column;
+    width:  calc(100% / 3 - 15px);
+    padding-bottom: 20px;
 }
 
 .form-label {
@@ -203,6 +209,47 @@ body {
 
 .form-input {
     width: 100%;
+    height: 35px;
+    border: 0.5px solid gray;
+    padding: 22px;
+    
+}
+
+.submitbtn {
+    background-color: #d52941;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 32px;
+}
+
+.service-container {
+    text-align: center;
+    margin: 13% auto;
+}
+
+.service-text {
+    font-size: x-large;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10% 10%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    max-width: 20%;
+}
+
+.service img {
+    height: 150px;
+    width: 150px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -248,7 +295,12 @@ body {
     .nav-menu2 {
         display: none;
     }
+
+    .field {
+        width: calc(100% / 2 - 10px);
+    }
 }
+
 @media screen and (max-width: 800px) {
     .body {
         background-image: none;
@@ -262,6 +314,13 @@ body {
     .image-content {
         display: none;
     }
+}
+
+@media screen and (max-width: 530px) {
+    .field {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
