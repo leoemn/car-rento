@@ -268,12 +268,58 @@ body {
     padding-top: 20px;
 }
 
+.showcase-cars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 4.5% auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.pick-buttons {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.btn-car {
+    width: 100%;
+    height: 65px;
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7; 
+    cursor: pointer; 
+    display: inline-block; 
+    margin: 3px; 
+    transition: background-color 0.3s;
+}
+
+.btn-car:hover {
+    background-color: #eb0e2c
+}
+
+.car-image-container {
+    text-align: center;
+    flex: 3;
+    margin-top: 8%;
+}
+
+.car-image-container img {
+    max-width: 70%;
+    height: auto; 
+}
+
+
 .pick-description {
+    max-width: 100%;
     font-family: 'Arial', sans-serif;
-    max-width: 300px;
-    margin: auto;
     padding: 20px;
-    background-color: #fff;
+    flex: 1;
 }
 
 .pick-description__price {
@@ -302,7 +348,7 @@ body {
     font-weight: bold;
 }
 
-.cta-btn {
+.btn-reserve {
     display: block;
     width: 100%;
     text-align: center;
@@ -316,8 +362,8 @@ body {
     cursor: pointer;
 }
 
-.cta-btn:hover {
-    background-color: #e63e2d;
+.btn-reserve:hover {
+    background-color: #eb0e2c
 }
 
 
@@ -372,6 +418,24 @@ body {
     .field {
         width: calc(100% / 2 - 10px);
     }
+
+    .showcase-cars {
+        flex-direction: column;
+    }
+
+    .pick-buttons {
+        margin: 4%;
+    }
+    .car-image-container,
+    .pick-description {
+        margin: 4% auto;
+        width: 100%;
+    }
+
+    .btn-car {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
