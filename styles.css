@@ -303,6 +303,12 @@ body {
     background-color: #eb0e2c
 }
 
+.selected {
+    background-color: #d52941; 
+    color: white; 
+}
+
+
 .car-image-container {
     text-align: center;
     flex: 3;
