@@ -372,6 +372,66 @@ body {
     background-color: #eb0e2c
 }
 
+.banner-container {
+    background-color: #2d2d2d;
+    padding: 5% 3%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.banner-content {
+    color: white;
+    font-size: xx-large;
+}
+
+.banner-content h1 {
+    margin: 0px 0px 10px 0px
+}
+
+.banner-content span {
+    color: red;
+}
+
+.three-cars {
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.three-cars img {
+    max-width: 100%;
+    height: auto;
+}
+
+.choose-us {
+    padding: 0% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    max-width: 40%;
+}
+
+
+.btn-find  {
+    background-color: #d52941;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+}
+
+.right-container {
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+    padding: 0px 5px;
+}
+
 
 @media screen and (max-width: 1000px) {
     .hamburger {
@@ -469,6 +529,10 @@ body {
     .service {
         width: 100%;
     }
+
+    .banner-content {
+        font-size: x-large;
+    }
 }
 
 @media screen and (max-width: 530px) {
@@ -496,5 +560,9 @@ body {
 
     .btn-learn {
         padding: 7px 7px;
+    }
+
+    .banner-container {
+        margin-top: 15%;   
     }
 }
