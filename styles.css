@@ -472,6 +472,9 @@ body {
     padding: 10px 0px;
 }
 
+.testimonials {
+    margin: 5% auto;
+}
 
 @media screen and (max-width: 1000px) {
     .hamburger {
